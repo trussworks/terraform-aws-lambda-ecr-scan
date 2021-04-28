@@ -16,6 +16,9 @@ module "ecrscan_lambda" {
 }
 ```
 
+For more details on the capabilities of the `ecr-scan` tool, as
+well as how to deploy it, see <https://github.com/trussworks/ecr-scan>.
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
