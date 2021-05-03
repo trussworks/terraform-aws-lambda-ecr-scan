@@ -1,12 +1,4 @@
 repos:
-  - repo: local
-    hooks:
-      - id: go-version
-        name: go version
-        entry: scripts/check-go-version
-        language: script
-        types: [go]
-
   - repo: git://github.com/pre-commit/pre-commit-hooks
     rev: v3.4.0
     hooks:
@@ -29,17 +21,3 @@ repos:
     hooks:
       - id: terraform_docs
       - id: terraform_fmt
-
-  - repo: git://github.com/golangci/golangci-lint
-    rev: v1.34.1
-    hooks:
-      - id: golangci-lint
-
-  - repo: local
-    hooks:
-      - id: gomod
-        name: gomod
-        entry: scripts/pre-commit-go-mod
-        language: script
-        files: go.mod
-        pass_filenames: false
