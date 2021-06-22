@@ -55,7 +55,7 @@ well as how to deploy it, see <https://github.com/trussworks/ecr-scan>.
 | <a name="input_job_identifier"></a> [job\_identifier](#input\_job\_identifier) | A generic job identifier to make resources for this job more obvious. | `string` | n/a | yes |
 | <a name="input_publish"></a> [publish](#input\_publish) | Whether to publish creation/change as new Lambda Function Version. | `bool` | `false` | no |
 | <a name="input_s3_bucket"></a> [s3\_bucket](#input\_s3\_bucket) | The name of the bucket used to store the Lambda builds. | `string` | n/a | yes |
-| <a name="input_timeout"></a> [timeout](#input\_timeout) | timeout in seconds | `string` | `120` | no |
+| <a name="input_timeout"></a> [timeout](#input\_timeout) | Lambda Function timeout in seconds | `string` | `120` | no |
 | <a name="input_version_to_deploy"></a> [version\_to\_deploy](#input\_version\_to\_deploy) | The version of the Lambda function to deploy. | `string` | n/a | yes |
 
 ## Outputs
