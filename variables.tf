@@ -32,6 +32,6 @@ variable "publish" {
 
 variable "timeout" {
   description = "Lambda Function timeout in seconds"
-  type        = string
+  type        = number
   default     = 120
 }
