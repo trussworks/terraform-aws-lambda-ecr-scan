@@ -29,3 +29,9 @@ variable "publish" {
   type        = bool
   default     = false
 }
+
+variable "timeout" {
+  description = "Lambda Function timeout in seconds"
+  type        = number
+  default     = 120
+}
