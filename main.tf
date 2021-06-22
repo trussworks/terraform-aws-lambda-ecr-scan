@@ -32,7 +32,7 @@ module "ecrscan_lambda" {
   role_policy_arns               = [aws_iam_policy.main.arn]
   cloudwatch_logs_retention_days = var.cloudwatch_logs_retention_days
   publish                        = var.publish
-  timeout                        = 120
+  timeout                        = var.timeout
 
   s3_bucket = var.s3_bucket
   s3_key    = "${local.name}/${var.version_to_deploy}.zip"

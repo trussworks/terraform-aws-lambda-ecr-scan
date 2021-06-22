@@ -29,3 +29,9 @@ variable "publish" {
   type        = bool
   default     = false
 }
+
+variable "timeout" {
+  description = "timeout in seconds"
+  type        = string
+  default     = 120
+}
