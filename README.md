@@ -37,7 +37,7 @@ well as how to deploy it, see <https://github.com/trussworks/ecr-scan>.
 
 | Name | Source | Version |
 |------|--------|---------|
-| ecrscan\_lambda | trussworks/lambda/aws | ~>2.4.0 |
+| ecrscan\_lambda | trussworks/lambda/aws | ~> 2.5.0 |
 
 ## Resources
 
