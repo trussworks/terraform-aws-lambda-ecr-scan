@@ -22,7 +22,7 @@ resource "aws_iam_policy" "main" {
 
 module "ecrscan_lambda" {
   source  = "trussworks/lambda/aws"
-  version = "~> 2.5.0"
+  version = "~> 2.6.0"
 
   name                           = local.name
   handler                        = local.name
