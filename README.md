@@ -2,6 +2,7 @@
 
 This module has been deprecated and is no longer maintained. Should you need to continue to use it, please fork the repository. Thank you.
 
+## terraform-aws-lambda-ecr-scan
 Creates a Lambda function with associated role and policies to parse ECR image scan findings.
 
 ## Usage
